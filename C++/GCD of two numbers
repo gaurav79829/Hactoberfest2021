@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 int gcd(int a, int b) {
    if (b == 0)
    return a;
@@ -8,7 +10,9 @@ int gcd(int a, int b) {
 int main() {
    int a , b;
    cout<<"Enter the values of a and b: "<<endl;
-   cin>>a>>b;
-   cout<<"GCD of "<< a <<" and "<< b <<" is "<< gcd(a, b);
+   cin>>a>>b;                      // taking input
+   
+   
+   cout<<"GCD of "<< a <<" and "<< b <<" is "<< gcd(a, b);  // calling functionn
    return 0;
 }
